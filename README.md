@@ -11,17 +11,17 @@ How to retrieve data from a json file.
 link https://fancy-caramel-b5efa9.netlify.app/
 
 ## Built with
--HTML 5
--CSS 3
--Javascript
+- HTML 5
+- CSS 3
+- Javascript
 
 ## Future Updates
 Need to work on the search bar overlay for the mobile view in CSS
 Need to fix the load more button.
 
 ### Useful resources
--youtube
--stackoverflow
+- youtube
+- stackoverflow
 
 ## Authors
 
