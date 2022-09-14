@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" 
+      content="width=device-width, 
+               height=device-height, 
+               initial-scale=1.0, 
+               maximum-scale=1.0, 
+              "/>
+		<link rel="stylesheet" href="./dev.css" />
+		<script src="./darkmode.js" defer></script>
+		<script src="./devs.js" type="module" defer></script>
+		<title>devjobs</title>
+	</head>
+	<body>
+		
+		<img src="assets/desktop/bg-pattern-header.svg" alt="header image" class="headerImg" />
+
+		<header class="header" id="header">
+			<div class="header-top">
+				<img src="assets/desktop/logo.svg" alt="logo" class="logo" />
+
+				<div class="toggle-container">
+					<img src="assets/desktop/icon-sun.svg" alt="sun icon" class="toggle-container-sun" />
+					<div>
+						<input type="checkbox" id="checkboxSlider" class="toggle" />
+						<label for="checkboxSlider" class="label">
+							<div class="ball"></div>
+						</label>
+					</div>
+					<img src="assets/desktop/icon-moon.svg" alt="moon icon" class="toggle-container-moon" />
+				</div>
+			</div>
+			<div class="search">
+				<div class="search__phrase">
+					<img src="assets/desktop/icon-search.svg" alt="search icon" class="search__phrase-icon" />
+					<input type="text" id="searchPhrase" placeholder="Filter by title, companies, expertise..." />
+				</div>
+				<div class="search__location">
+					<img src="assets/desktop/icon-location.svg" alt="location icon" class="search__location-icon" />
+					<input type="text" id="searchLocation" placeholder="Filter by location..." />
+				</div>
+				<div class="search__interactions">
+					<div class="search__interactions-checkbox">
+						<label class="checkbox-container">
+							<input type="checkbox" id="fullTimeOnly" class="checkbox" />
+							<span class="checkmark"></span>
+						</label>
+						<h4>FullTime Only</h4>
+					</div>
+
+					<button class="btn" id="SearchButton">Search</button>
+				</div>
+		</header>
+		<main class="app">
+			
+		</main>
+
+        <div class="more" id="loadMore"><button>Load More</button></div>
+	</body>
+</html>
