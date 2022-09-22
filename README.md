@@ -17,7 +17,7 @@ link https://fancy-caramel-b5efa9.netlify.app/
 
 ## Future Updates
 Need to work on the search bar overlay for the mobile view in CSS
-Need to fix the load more button.
+.
 
 ### Useful resources
 - youtube
